@@ -1,0 +1,104 @@
+body {
+    width: 1171px;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+h2 {
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Raleway Light';
+    font-size: 36px;
+    line-height: 42.26px;
+    text-align: center;
+    height: 170px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.border {    
+    width: 170px;
+    border-top: 1px solid #EC7979;
+    margin: auto;   
+}
+.header {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Raleway Light';
+    line-height: 21.13px;
+    color: #86878B;
+    margin: 40px 0 0 0;
+}
+main {
+    display: flex;
+    gap: 30px;
+}
+.block {
+    margin-top: 83px;
+}
+.block__text {
+    width: 370px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: #E2E2E2;
+    color: #86878B;
+    font-size: 18px;
+    font-family: 'Raleway Light';
+    text-align: center;   
+    display: flex;     
+    align-items: center;
+    position: relative;
+}
+.block__text::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #E2E2E2;
+    position: absolute;
+    left: 70px;
+    top: 180px;
+}
+.block__resume {
+    margin-top: 66px;
+    display: flex;
+    gap: 30px;
+}
+.block__resume__picture {
+    width: 70px;
+    height: 70px;
+}
+h4 {
+    margin: 0;
+    font-family: 'OpenSans SemiCondensed Bold';
+    font-size: 24px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+h5:not(.header) {
+    font-family: 'Raleway Light';
+    font-size: 18px;
+    line-height: 21.13px;
+    margin-top: 15px;
+}
+@font-face {
+    font-family: "Raleway VariableFont"; 
+    src: url("../fonts/Rleway-VariableFont_wght.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}   
+@font-face {
+    font-family: "Raleway Light"; 
+    src: url("../fonts/Raleway-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}   
+@font-face {
+    font-family: "OpenSans SemiCondensed Bold"; 
+    src: url("../fonts/OpenSans_SemiCondensed-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}   
+
